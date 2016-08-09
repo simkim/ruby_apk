@@ -69,7 +69,7 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<rubyzip>, ["= 1.1.6"])
+      s.add_runtime_dependency(%q<rubyzip>, ["= 1.1.7"])
       s.add_development_dependency(%q<rspec>, [">= 2.11.0", "~> 2.11"])
       s.add_development_dependency(%q<bundler>, [">= 1.1.5", "~> 1.1"])
       s.add_development_dependency(%q<jeweler>, [">= 1.8.7", "~> 1.8"])
@@ -77,7 +77,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<redcarpet>, ["~> 3.2"])
       s.add_development_dependency(%q<simplecov>, ["~> 0"])
     else
-      s.add_dependency(%q<rubyzip>, ["= 1.1.6"])
+      s.add_dependency(%q<rubyzip>, ["= 1.1.7"])
       s.add_dependency(%q<rspec>, [">= 2.11.0", "~> 2.11"])
       s.add_dependency(%q<bundler>, [">= 1.1.5", "~> 1.1"])
       s.add_dependency(%q<jeweler>, [">= 1.8.7", "~> 1.8"])
@@ -86,7 +86,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<simplecov>, ["~> 0"])
     end
   else
-    s.add_dependency(%q<rubyzip>, ["= 1.1.6"])
+    s.add_dependency(%q<rubyzip>, ["= 1.1.7"])
     s.add_dependency(%q<rspec>, [">= 2.11.0", "~> 2.11"])
     s.add_dependency(%q<bundler>, [">= 1.1.5", "~> 1.1"])
     s.add_dependency(%q<jeweler>, [">= 1.8.7", "~> 1.8"])
